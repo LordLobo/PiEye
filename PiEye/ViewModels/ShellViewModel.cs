@@ -35,7 +35,9 @@ namespace PiEye.ViewModels
             _navigationService = _container.RegisterNavigationService(frame);
 
             if (_resume)
+            {
                 _navigationService.ResumeState();
+            }
         }
 
         public void ShowDevices()

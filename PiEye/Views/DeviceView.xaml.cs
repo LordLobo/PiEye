@@ -7,11 +7,6 @@ namespace PiEye.Views
         public DeviceView()
         {
             InitializeComponent();
-        }
-
-        private void Test(object sender, RoutedEventArgs e)
-        {
-            Title.Text = "Cliced";
-        }
+        }        
     }
 }
